@@ -146,7 +146,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-background via-accent/5 to-primary/10 dark:from-background dark:via-primary/10 dark:to-accent/20">
-      <div className="max-w-4xl mx-auto p-8">
+      <div className="sm:max-w-4xl w-full mx-auto sm:p-8">
         <div className="flex justify-between items-center mb-8">
           <div className="flex items-center gap-3">
             <Sparkles className="w-10 h-10 text-primary animate-pulse" />
@@ -245,7 +245,7 @@ export default function Home() {
                   result.map((obj, i) => (
                     <div className="mt-5 mb-10" key={i}>
                       <div className="flex justify-end mb-3">
-                        <div className="dark:bg-[#303030] bg-[#e0dfdf] rounded-full p-2 inline-flex">
+                        <div className="dark:bg-[#303030] bg-[#e0dfdf] rounded-full pr-5 pl-5 inline-flex p-4">
                           <div>{obj.prompt}</div>
                         </div>
                       </div>
